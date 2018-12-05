@@ -7,7 +7,9 @@ palette_filename = 'CHROMA.MAP.csv'
 
 palette_dict = read_palette_from_file(my_dir + '/' + palette_filename)
 
-print( 'results of the dictionary read')
-print( f'{palette_dict[0]}' )
-print( f'{palette_dict[1]}' )
-print( f'{palette_dict[2]}' )
+keyone = (mydict[1])
+print(keyone)
+print('results of the dictionary read')
+print(f'{palette_dict[0]}')
+print(f'{palette_dict[1]}')
+print(f'{palette_dict[2]}')
